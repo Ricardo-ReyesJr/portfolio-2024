@@ -8,9 +8,9 @@ const Navbar = () => {
             <div className="logo">
             </div>
             <div className="nav">
-                <ul className="flex align-text-top gap-8">
+                <ul className="flex align-text-top gap-2 px-4">
                     <li><a href="/" className="ctb-btn">Home</a></li>
-                    <li><a href="" className="ctb-btn">Skills</a></li>
+                    <li><a href="" className="ctb-btn">About</a></li>
                     <li><a href="" className="ctb-btn">Projects</a></li>
                     <li><a href="" className="ctb-btn">Contact Me</a></li>
                     <li><a href="" className="ctb-btn">Resume</a></li>

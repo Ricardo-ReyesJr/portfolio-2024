@@ -5,7 +5,7 @@ const Footer = () => {
         <>
             <hr/>
             <div className="footer-container">
-                <p>© {new Date().getFullYear()} Ricardo Reyes Jr.</p>
+                <p>© {new Date().getFullYear()} Build and designed with &#9829; by Ricardo Reyes Jr.</p>
                 <div className="social_icons">
                     <a 
                     href="https://twitter.com/RickReyesDev"

@@ -2,15 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Lato", sans-serif;
 }
 body {
   background-color: #2B2B2B;
   color: #F5F5F5;
 }
-
+main {
+  background-color: #F5F5F5;
+}
 .nav-container {
   display: flex;
+  background-color: #252525;
+  font-family: "Lato", sans-serif;;
 }

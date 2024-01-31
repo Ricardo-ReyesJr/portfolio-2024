@@ -1,13 +1,13 @@
 import Image from "next/image";
+import Main from "@/components/Main";
 
 export default function Home() {
   return (
     <>
     <div className="container mx-auto px-4">
-      <h1>Hello World</h1>
-      <p>This is a content to make our page longer</p>
+      
+      {/* This line to add a full page spacing */}
       <div className="w-full h-screen"></div>
-      <p>Lorem Ipsum is simply dummy text.</p>
       </div>
       </>
   );
